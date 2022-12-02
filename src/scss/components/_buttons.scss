@@ -1,0 +1,21 @@
+.btn {
+  padding: 14px 32px;
+  text-transform: uppercase;
+  border-radius: 26px;
+  border: 1px solid transparent;
+  font: {
+    size: 14px;
+  };
+  line-height: 26px;
+  transition-duration: .25s;
+  transition-property: background-color, color;
+  &.btn-orange {
+    background-color: $orange-100;
+    color: $white;
+    border-color: $orange-100;
+    &:hover {
+      background-color: transparent;
+      color: $orange-100;
+    }
+  }
+}

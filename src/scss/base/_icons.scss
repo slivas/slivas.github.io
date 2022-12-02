@@ -1,0 +1,12 @@
+.icon-arrow {
+  height: 14px;
+  width: 7px;
+  display: block;
+  background-image: url("../../images/arrow-prev.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.icon-arrow-next {
+ transform: rotate(180deg);
+}
